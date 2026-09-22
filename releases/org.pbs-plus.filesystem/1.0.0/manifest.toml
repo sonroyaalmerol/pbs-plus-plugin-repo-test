@@ -1,0 +1,23 @@
+format_version = 1
+protocol = 1
+plugin_id = "org.pbs-plus.filesystem"
+version = "1.0.0"
+target_types = ["local"]
+schema_sha256 = "bda5854fb044ea679da6cb60e5cbd0f30a668627cad1b59881c6c9d10ffe576a"
+
+[target_schema]
+  version = 1
+
+  [[target_schema.field]]
+    key = "path"
+    label = "Path"
+    control = "path"
+    required = true
+    help = "Absolute directory backed up from this server."
+    order = 0
+
+[backup_schema]
+  version = 1
+
+[restore_schema]
+  version = 1
