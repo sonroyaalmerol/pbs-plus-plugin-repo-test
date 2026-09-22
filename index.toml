@@ -1,0 +1,26 @@
+format_version = 1
+repository_id = "org.pbs-plus.test-repo"
+
+[[release]]
+  plugin_id = "org.pbs-plus.filesystem"
+  version = "1.0.0"
+  publisher = "PBS Plus Test"
+  publisher_key_fingerprint = "a8f2186aa6e8fe141efc64ecd00aea7f4bcee4b2ab1746030cd518317cb9957e"
+  minimum_host_version = "1.0.0"
+  maximum_host_version = ""
+  protocol = 1
+  target_types = ["local"]
+  manifest_url = "releases/org.pbs-plus.filesystem/1.0.0/manifest.toml"
+  manifest_sha256 = "9b8cb12a57850af873bc6dd926bc9c1de0400bc27ab5ca5ceecfdf65ffb00add"
+  channel = "stable"
+  replaced_by = ""
+  revoked = false
+  revocation_reason = ""
+
+  [[release.artifact]]
+    os = "linux"
+    arch = "amd64"
+    url = "releases/org.pbs-plus.filesystem/1.0.0/plugin-linux-amd64"
+    size = 8826432
+    sha256 = "d7db7bb3e27b47dd24ea99c63ce642a50f269609f5efaea510877d84df1d2d8a"
+    signature = "MEYCIQDscVSfkgxtPimOhK+4ke1Xv8cdu9I3G885fe068xJPcQIhAO1/6IKj/lUMTbc/l/p1ZYqIEfDN7rIXdNva8Ql+thoW"
